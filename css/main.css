@@ -329,6 +329,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 70px;
 }
 .nike__wrapper img{
     width: 100%;
@@ -360,3 +361,33 @@ img{
     }
 }
 /* -----------NIKE SECTION END--------------- */
+
+
+.footer{
+    background-image: url(../images/footer-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-box{
+    padding: 240px 0;
+}
+.footer__box{
+    margin-left:auto ;
+    padding: 10px;
+}
+.footer__box h1{
+    color:#fff;
+}
+.footer__box p{
+    color:#fff;
+    border-left: 3px solid #fff;
+
+}
+.footer__box h1{
+    color:#fff;
+}
+.footer__box{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+}
