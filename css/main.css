@@ -223,8 +223,8 @@ img{
 }
 @media only screen and (max-width: 444px) {
     .hero__box h1{
-        font-size: 40px;
-        line-height: 40px;
+        font-size: 30px;
+        line-height: 35px;
         margin-bottom: 20px;
         text-align: center;
     }
@@ -322,3 +322,41 @@ img{
     }
 }
 /* -----------TEXT SECTION END--------------- */
+
+/* -----------NIKE SECTION --------------- */
+
+.nike__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nike__wrapper img{
+    width: 100%;
+    width: 400px;
+    height: auto;
+}
+
+.nite-btn{
+    padding: 12px 90px;
+}
+@media only screen and (max-width: 320px) {
+
+    .nite-btn{
+        padding: 12px 60px;
+    }
+}
+@media only screen and (max-width: 440px) {
+    .nike__wrapper img{
+        width: 100%;
+        width: 270px;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 930px) {
+    .nike__wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+}
+/* -----------NIKE SECTION END--------------- */
